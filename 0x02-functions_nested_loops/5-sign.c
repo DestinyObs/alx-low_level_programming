@@ -19,4 +19,9 @@ int print_sign(int value)
 		return (0);
 	}
 	else
+	{
+		_putchar('-');
+		return (1);
+	}
+}
 
